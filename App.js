@@ -1,15 +1,9 @@
-import { View, Text } from "react-native";
+// import * as React from 'react'
+import AuthNavigation from "./AuthNavigation";
+import SignedInStack from "./navigation";
+import HomeScreen from "./Screens/HomeScreen";
+// import NewPostScreen from "./Screens/NewPostScreen";
 
 export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+  return <AuthNavigation />
 }
